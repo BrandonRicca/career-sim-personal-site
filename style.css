@@ -41,6 +41,7 @@ img {
   float: right;
   width: 300px;
   margin: 10px 0 10px 10px;
+  box-shadow: 0 0 12px -2px black;
 }
 
 main {
@@ -53,4 +54,23 @@ main {
   background-color: #333333;
   margin-left: 25vw; /* Moves the main body into the center */
   color: #c0c0c0;
+  font-size: large;
+  box-shadow: 0 0 12px -2px black;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.5em; /* adds spaces inbetween the words */
+  text-indent: 4.5em; /* Indents the paragraph */
+}
+
+.quote {
+  text-align: center;
+  margin-top: 8em;
+  font-size: x-large;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
