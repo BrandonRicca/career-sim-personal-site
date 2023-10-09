@@ -64,7 +64,7 @@ h2 {
 
 p {
   line-height: 1.5em; /* adds spaces inbetween the words */
-  text-indent: 4.5em; /* Indents the paragraph */
+  text-indent: 2em; /* Indents the paragraph */
 }
 
 .quote {
