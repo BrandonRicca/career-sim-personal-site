@@ -17,11 +17,12 @@ nav {
   background-color: #333333;
   color: #c0c0c0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Makes the text in Nav bar appear on each side */
   padding: 10px;
   height: 80px;
 }
 
+/* Underlines the word in the nav bar to show you what page your on easily */
 .active {
   border-bottom: 1px solid #c0c0c0;
 }
@@ -47,7 +48,6 @@ img {
 main {
   padding: 85px 24px 96px;
   box-shadow: 0 0 12px -2px black;
-  color: aliceblue;
   min-height: 100vh;
   width: 50%;
   align-self: center;
@@ -93,4 +93,11 @@ footer {
 
 hr {
   width: 100%; /* Makes the hr able to span the whole width without being broken */
+}
+
+/* Picture on the portfolio page */
+#Chopper {
+  height: fit-content;
+  width: fit-content;
+  float: none;
 }
