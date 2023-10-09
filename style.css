@@ -48,7 +48,7 @@ main {
   padding: 85px 24px 96px;
   box-shadow: 0 0 12px -2px black;
   color: aliceblue;
-  height: 100vh;
+  min-height: 100vh;
   width: 50%;
   align-self: center;
   background-color: #333333;
@@ -73,4 +73,15 @@ p {
   font-size: x-large;
   font-weight: 100;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  position: absolute;
+}
+
+
+.flex-hobbies {
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 24px 24px 24px;
 }
